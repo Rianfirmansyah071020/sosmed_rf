@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\Umum\BerandaUmumController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -13,6 +14,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('layouts.umum_layouts');
-});
+Route::resources([
+    '/' => BerandaUmumController::class,
+]);

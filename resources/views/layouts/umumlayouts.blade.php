@@ -15,11 +15,11 @@
 
     <div id="loading-container">
         <div id="loading-icon">
-            <h1 class="loading">Loading....</h1>
         </div>
+        <h5 class="loading">Loading....</h5>
     </div>
 
-
+    @yield('content')
 
     <script src="{{ asset('assets/bootstrap/js/bootstrap.min.js') }}"></script>
     <script src="{{ asset('assets/js/main.js') }}"></script>

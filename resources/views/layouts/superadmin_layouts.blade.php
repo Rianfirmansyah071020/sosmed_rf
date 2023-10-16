@@ -15,8 +15,8 @@
 
     <div id="loading-container">
         <div id="loading-icon">
-            <!-- Tambahkan ikon loading di sini -->
         </div>
+        <h5 class="loading">Loading....</h5>
     </div>
 
 
