@@ -45,4 +45,32 @@
   100% {
     color: blue;
   }
+}
+.sidebar {
+  background: linear-gradient(50deg, rgba(33, 150, 243, 0.9), rgba(233, 30, 99, 0.9));
+  height: 99vh;
+  position: fixed;
+  padding: 1%;
+}
+
+.text-logo {
+  width: 50px;
+  height: 50px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  box-shadow: 1px 1px 30px rgba(255, 255, 255, 0.6);
+}
+.text-logo h1 {
+  color: white;
+  font-family: "Pixelify Sans";
+  text-align: center;
+  font-size: 24px;
+  margin-top: 5px;
+}
+
+.content {
+  height: 200vh;
 }/*# sourceMappingURL=main.css.map */
