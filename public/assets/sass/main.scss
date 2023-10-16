@@ -30,7 +30,7 @@
 }
 
 .loading {
-    animation: loading 0.1s linear infinite;
+    animation: loading 0.3s linear infinite;
 }
 
 @keyframes loading {
@@ -80,9 +80,115 @@
     }
 }
 
+.menu-sidebar {
+    list-style: none;
+    padding-left: 20px;
+
+    li {
+        padding: 15px 10px;
+        transition: 0.3s;
+        margin-left: -20px;
+        border-radius: 35px;
+    }
+
+    li:hover {
+        background-color: white;
+
+        .menu-item {
+            color: black;
+        }
+    }
+}
+
+.menu-item {
+    text-decoration: none;
+    color: white;
+}
+
+.li-item {
+    color: white;
+
+    i {
+        font-size: 22px;
+        margin-right: 10px;
+    }
+}
+
+.li-item:hover {
+    color: black;
+}
+
 .content {
     height: 200vh;
 }
 
 .sidebar-disarankan {
+    height: max-content;
+    position: fixed;
+    right: 0;
+    border-radius: 10px;
+    margin-top: 1%;
+    background-color: black;
+    padding: 30px;
+}
+
+.col-img-profil {
+    background-color: white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.img-profil {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: -8px;
+}
+
+.col-nama-profil {
+    line-height: 0.5;
+}
+
+.username {
+    color: white;
+}
+
+.nama-lengkap {
+    color: rgb(169, 169, 169);
+}
+
+.col-pengguna-disarankan {
+    margin-top: 50px;
+    color: rgb(169, 169, 169);
+    font-size: small;
+}
+
+.btn-lihat-semua {
+    text-decoration: none;
+    color: white;
+}
+
+.data-pengguna-disarankan {
+    color: white;
+    margin-top: 20px;
+}
+
+.img-pengguna-disarankan {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.btn-ikuti {
+    text-decoration: none;
+}
+
+.col-footer {
+    margin-top: 30px;
+    p {
+        font-size: small;
+        color: gray;
+    }
 }
