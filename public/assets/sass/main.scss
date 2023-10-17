@@ -60,6 +60,7 @@
     height: 99vh;
     position: fixed;
     padding: 1%;
+    top: 0;
 }
 
 .text-logo {
@@ -119,17 +120,22 @@
 }
 
 .content {
-    height: 200vh;
+    // border: 1px solid black;
+    position: absolute;
+    left: 211px;
+    height: 120vh;
+    // transform: translate(-50%, -50%);
 }
 
 .sidebar-disarankan {
     height: max-content;
     position: fixed;
     right: 0;
-    border-radius: 10px;
-    margin-top: 1%;
+    // border-radius: 10px;
+    // margin-top: 1%;
     background-color: black;
     padding: 30px;
+    top: 0;
 }
 
 .col-img-profil {
@@ -191,4 +197,17 @@
         font-size: small;
         color: gray;
     }
+}
+
+.body {
+    padding-top: 3%;
+}
+
+.img-status {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid rgb(195, 0, 255);
+    box-shadow: 0px 0px 10px rgb(195, 0, 255);
 }

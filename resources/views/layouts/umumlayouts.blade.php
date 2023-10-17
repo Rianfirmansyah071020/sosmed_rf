@@ -49,7 +49,7 @@
                     </li>
                 </ul>
             </div>
-            <div class="col-lg-9 col-xl-9 col-md-9 col-12 d-sm-block d-md-block d-xl-block d-lg-block content">
+            <div class="col-lg-7 col-xl-7 col-md-7 col-12 d-sm-block d-md-block d-xl-block d-lg-block content border-1">
                 @yield('content')
             </div>
             <div
